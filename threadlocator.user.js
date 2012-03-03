@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name		/b/ thread locator
-// @version		0.0013
+// @version		0.0014
 // @namespace		threadlocator
 // @description		The name tells the story.
 // @license		MIT; http://en.wikipedia.org/wiki/MIT_license
