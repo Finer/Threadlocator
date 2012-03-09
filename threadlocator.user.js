@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name		/b/ thread locator
+// @name		/b/ pony thread locator
 // @version		0.0014
 // @namespace		threadlocator
 // @description		The name tells the story.
