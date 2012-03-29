@@ -7,6 +7,8 @@
 // @include		http://www.ponychan.net/chan/*
 // @include		http://www.4chan.org/*
 // @include		http://boards.4chan.org/*
+// @include		https://www.4chan.org/*
+// @include		https://boards.4chan.org/*
 // @include		http://eris.web44.net/chan/thread/*
 // @updateURL		https://raw.github.com/Finer/Threadlocator/master/threadlocator.user.js
 // @run-at		document-start
