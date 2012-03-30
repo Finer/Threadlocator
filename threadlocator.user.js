@@ -147,8 +147,8 @@ function main(text) {
 	
 	function getLocation(loc) {
 		var location = 0;
-		var pattern = /http:\/\/boards.4chan.org\/b\/res\/([0-9]+)/i;
-	    if (loc.match(/http:\/\/boards.4chan.org\/b\/res\//, "i")) {
+		var pattern = /https?:\/\/boards.4chan.org\/b\/res\/([0-9]+)/i;
+	    if (loc.match(/https?:\/\/boards.4chan.org\/b\/res\//, "i")) {
 			location = pattern.exec(loc)[1];
 		}
 		//alert(location);
