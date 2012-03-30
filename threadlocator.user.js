@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name		/b/ pony thread locator
-// @version		0.0015
+// @version		0.0016
 // @namespace		threadlocator
 // @description		The name tells the story.
 // @license		MIT; http://en.wikipedia.org/wiki/MIT_license
