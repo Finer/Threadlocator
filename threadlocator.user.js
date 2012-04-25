@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name		/b/ pony thread locator
-// @version		0.0016
+// @version		0.0017
 // @namespace		threadlocator
 // @description		The name tells the story.
 // @license		MIT; http://en.wikipedia.org/wiki/MIT_license
@@ -241,9 +241,12 @@ function main(text) {
 			  response.responseXML
 			].join("\n"));
 			*/
-			if (response.responseText > 500) {
-				alert("Error with server, please disable /b/ thread locator.");
+			if (response.responseText.length > 500) {
+				//alert("Error with server, please disable /b/ thread locator.");
 				//throwErrorText(); //pretty html error TODO
+				return -1;
+			}
+			if (response.responseText.length < 1) {
 				return -1;
 			}
 			main(response.responseText);
